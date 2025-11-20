@@ -1,8 +1,7 @@
-
 import React, { useState, useRef } from 'react';
-import { CymaticSimulation, SimulationHandle } from './components/CymaticSimulation';
-import { ControlPanel } from './components/ControlPanel';
-import { DEFAULT_PARAMS, SimulationParams } from './types';
+import { CymaticSimulation, SimulationHandle } from './components/CymaticSimulation.tsx';
+import { ControlPanel } from './components/ControlPanel.tsx';
+import { DEFAULT_PARAMS, SimulationParams } from './types.ts';
 
 const App: React.FC = () => {
   const [params, setParams] = useState<SimulationParams>(DEFAULT_PARAMS);

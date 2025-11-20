@@ -1,6 +1,5 @@
-
 import React, { useRef, useEffect, useState, forwardRef, useImperativeHandle, useLayoutEffect } from 'react';
-import { SimulationParams } from '../types';
+import { SimulationParams } from '../types.ts';
 
 interface Props {
   params: SimulationParams;

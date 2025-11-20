@@ -1,6 +1,5 @@
-
 import React from 'react';
-import { SimulationParams } from '../types';
+import { SimulationParams } from '../types.ts';
 
 interface ControlPanelProps {
   params: SimulationParams;
